@@ -86,6 +86,8 @@ nav.navigations {
     justify-content:space-around; 
     margin-bottom: 5em;
 }
+
+
 h3 {
     display: flex;
     justify-content: center;
@@ -130,6 +132,7 @@ footer {
 .rowFooter img {
     height: 3em;
     padding-left: 2em;
+   padding-top: 1em;
 }
 footer ul li {
     list-style-type: none;
