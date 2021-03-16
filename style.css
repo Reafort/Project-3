@@ -17,7 +17,7 @@ div.fas.fa-map-marker-alt.fa-x {
     background-color: #f2f2f2   
 }
 
-h1 {
+h1.Book-menu {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -29,7 +29,7 @@ h1 {
     padding-top: 10px;
     font-size: 20px;
 }
-h2 {
+h2.Explore-btn {
     display: flex;
     justify-content: center;
     padding-top: 16px;
@@ -42,7 +42,7 @@ h2 {
     font-size: 19px;
 }
 
-div.sidebar {
+div.How-it-works-btn {
     display: flex;
     justify-content: center;
     margin-top: 2em;
@@ -65,19 +65,30 @@ button.button-1 {
 	border-bottom-right-radius: 1.5em;
 }
 span.button-icon {
-    margin-right: 9em;
+    margin-right: 8em;
     font-size: 1.2em;
 }
 span.button-text {
     padding-right: 10em;
     font-size: 1.1em;
 }
+span.button-numbers {
+    position: absolute;
+    background-color: #9356DC;
+    color: white;
+    margin-top: 5em;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding-left: 4px;
+    padding-right: 4px;  
+}
 span.button-icon-1 {
     margin-right: 8em;
     font-size: 1.2em;
 }
 span.button-text-1 {
-    padding-right:8em;
+    padding-right: 7em;
     font-size: 1.1em;
 }
 
@@ -88,18 +99,18 @@ nav.navigations {
 }
 
 
-h3 {
+h3.Restaurant {
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-top: 
 }
-section {
+section.List-of-menus {
     padding-top: 0.1px;
     background-color: #f2f2f2;
 }
 section .menus {
-    display: flex;
+    display: grid;
 }
 .menus img {
     height: 200px;
@@ -125,7 +136,7 @@ div.menu-title {
 div.menu-sub-title {
     padding-left: 8px;
 }
-footer {
+footer.footer-homepage {
     background-color: gray;
     margin-top: 1em;
 }
