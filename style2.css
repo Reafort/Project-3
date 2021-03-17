@@ -1,6 +1,9 @@
 div {
    // outline: 1px solid black
 }
+body{
+    font-family: Roboto;
+}
 div.logo {
  display: flex;
 justify-content: center; 
@@ -8,12 +11,12 @@ justify-content: center;
     padding-bottom: 15px; 
  }
 
-.full-palette img {
+.top-image img {
     width: 100%;
     height: 450px;
     object-fit: cover;
     max-height: 100%;
-    //position: relative;
+
 }
 footer.footer-menu {
     border: 1px solid ;
@@ -29,7 +32,7 @@ li.footer-list {
 section.full-palette-entrees {
      border-top-right-radius: 55px;
      border-top-left-radius: 55px;
-    background: #f2f2f2
+    background: #f2f2f2;
 }
 div.list-of-food {
    box-shadow: 4px 7px 14px -2px rgba(0.1, 0, 0, 0.1);
@@ -49,13 +52,17 @@ i.far.fa-heart.menu-heart {
    
 }
 h1.full-palette-title {
+    font-weight: 900;
     padding-top: 2em;
     padding-left: 20px;
 }
 h2.palette-options {
     padding-left: 20px;
+    font-weight: 300;
+    font-size: 16px
 }
 div.first-entree {
+    font-weight: 900;
     padding-left: 10px;
     padding-top: 5px;
     font-size: 17px;
