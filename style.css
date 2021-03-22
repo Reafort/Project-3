@@ -36,11 +36,16 @@ h1.Book-menu {
     padding-top: 10px;
     font-size: 20px;
 }
+div.Explore {
+    display: flex;
+    justify-content: center;
+}
 
 button.Explore-btn {
-
-   height: 60px;
-    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -58,7 +63,7 @@ div.How-it-works-btn {
 }
 button.button-1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
    align-items: center;
     border: 1px gray;;
     box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.20);
@@ -70,12 +75,14 @@ button.button-1 {
 	border-top-right-radius: 1.5em;
 	border-bottom-right-radius: 1.5em;
 }
+span.icon-and-text {
+    margin-left: 2em;
+}
 span.button-icon {
-    margin-right: 8em;
     font-size: 1.2em;
+    padding-right: 1em;
 }
 span.button-text {
-    padding-right: 10em;
     font-size: 1.1em;
 }
 span.button-numbers {
@@ -88,14 +95,7 @@ span.button-numbers {
     border-radius: 50%;
     padding-left: 4px;
     padding-right: 4px;  
-}
-span.button-icon-1 {
-    margin-right: 8em;
-    font-size: 1.2em;
-}
-span.button-text-1 {
-    padding-right: 7em;
-    font-size: 1.1em;
+    margin-left: -5px;
 }
 
 nav.navigations {
@@ -117,7 +117,7 @@ section.List-of-menus {
 }
 section .menus {
     display: flex;
-   // display: grid;
+    flex-wrap: wrap;
 }
 .menus img {
     height: 200px;
@@ -126,14 +126,14 @@ section .menus {
     width: 395px; 
     object-fit: cover;
 }
-figure {
+ figure.box-figure {
    border: -1px solid white; 
     box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;  
-    width: 100%;
+    //width: 100%;
     padding-bottom: 13px;
 }
 div.menu-title {
@@ -162,42 +162,7 @@ li.footer-list {
 }
 @media only screen and (min-width: 300px) {
 	/* For tablets: */
-	.col-xs-1 {
-		width: 8.33%;
-	}
-	.col-xs-2 {
-		width: 16.66%;
-	}
-	.col-xs-3 {
-		width: 25%;
-	}
-	.col-xs-4 {
-		width: 33.33%;
-	}
-	.col-xs-5 {
-		width: 41.66%;
-	}
-	.col-xs-6 {
-		width: 50%;
-	}
-	.col-xs-7 {
-		width: 58.33%;
-	}
-	.col-xs-8 {
-		width: 66.66%;
-	}
-	.col-xs-9 {
-		width: 75%;
-	}
-	.col-xs-10 {
-		width: 83.33%;
-	}
-	.col-xs-11 {
-		width: 91.66%;
-	}
-	.col-xs-12 {
-		width: 100%;
-	}
+
 	.image1 {
 		height: 200px;
 	}
@@ -214,13 +179,13 @@ li.footer-list {
     div.logo {
         height: 30px;
     }
+    button.Explore-btn {
+        width: 50%;
+    }
     
      h2 {
             font-size: 18px;
          }
-   section .menus {
-    display: flex;
-    flex-direction: column;
 }
     nav.navigations {
       flex-direction: column;
@@ -229,174 +194,41 @@ li.footer-list {
        
     @media only screen and (min-width: 600px) {
 	/* For tablets: */
-	.col-s-1 {
-		width: 8.33%;
-	}
-	.col-s-2 {
-		width: 16.66%;
-	}
-	.col-s-3 {
-		width: 25%;
-	}
-	.col-s-4 {
-		width: 33.33%;
-	}
-	.col-s-5 {
-		width: 41.66%;
-	}
-	.col-s-6 {
-		width: 50%;
-	}
-	.col-s-7 {
-		width: 58.33%;
-	}
-	.col-s-8 {
-		width: 66.66%;
-	}
-	.col-s-9 {
-		width: 75%;
-	}
-	.col-s-10 {
-		width: 83.33%;
-	}
-	.col-s-11 {
-		width: 91.66%;
-	}
-	.col-s-12 {
-		width: 100%;
-	}
-   nav.navigations {
-      flex-direction: column;
-         }
-
+     section .menus {
+    display: flex;
+    flex-direction: row;
+           }
 }
     
  @media only screen and (min-width: 768px) {
 	/* For desktop: */
-	.col-1 {
-		width: 8.33%;
-	}
-	.col-2 {
-		width: 16.66%;
-	}
-	.col-3 {
-		width: 25%;
-	}
-	.col-4 {
-		width: 33.33%;
-	}
-	.col-5 {
-		width: 41.66%;
-	}
-	.col-6 {
-		width: 50%;
-	}
-	.col-7 {
-		width: 58.33%;
-	}
-	.col-8 {
-		width: 66.66%;
-	}
-	.col-9 {
-		width: 75%;
-	}
-	.col-10 {
-		width: 83.33%;
-	}
-	.col-11 {
-		width: 91.66%;
-	}
-	.col-12 {
-		width: 100%;
-	}
+     
+   nav.navigations {
+            align-items: center;
+        }
+        button.Explore-btn {
+        width: 30%;
+    }
 
           
       }
 @media only screen and (min-width: 1000px) {
 	/* For desktop: */
-	.col-l-1 {
-		width: 8.33%;
-	}
-	.col-l-2 {
-		width: 16.66%;
-	}
-	.col-l-3 {
-		width: 25%;
-	}
-	.col-l-4 {
-		width: 33.33%;
-	}
-	.col-l-5 {
-		width: 41.66%;
-	}
-	.col-l-6 {
-		width: 50%;
-	}
-	.col-l-7 {
-		width: 58.33%;
-	}
-	.col-l-8 {
-		width: 66.66%;
-	}
-	.col-l-9 {
-		width: 75%;
-	}
-	.col-l-10 {
-		width: 83.33%;
-	}
-	.col-l-11 {
-		width: 91.66%;
-	}
-	.col-l-12 {
-		width: 100%;
-	}
- }
+    
+	
      
-     @media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
 	/* For desktop: */
-	.col-xl-1 {
-		width: 8.33%;
-	}
-	.col-xl-2 {
-		width: 16.66%;
-	}
-	.col-xl-3 {
-		width: 25%;
-	}
-	.col-xl-4 {
-		width: 33.33%;
-	}
-	.col-xl-5 {
-		width: 41.66%;
-	}
-	.col-xl-6 {
-		width: 50%;
-	}
-	.col-xl-7 {
-		width: 58.33%;
-	}
-	.col-xl-8 {
-		width: 66.66%;
-	}
-	.col-xl-9 {
-		width: 75%;
-	}
-	.col-xl-10 {
-		width: 83.33%;
-	}
-	.col-xl-11 {
-		width: 91.66%;
-	}
-	.col-xl-12 {
-		width: 100%;
-	}
-         
+ 
     div.logo {
           height: 60px;  
          }
         h2 {
             font-size: 20px;
          }
+       button.Explore-btn {
+        width: 14%;
+    }
 
     section .menus {
     flex-direction: row;
