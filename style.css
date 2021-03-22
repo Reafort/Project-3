@@ -45,6 +45,9 @@ button.Explore-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    border: none;
     height: 60px;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;

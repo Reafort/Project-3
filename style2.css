@@ -82,3 +82,19 @@ div.price-euro {
     float: right;
     padding-right: 1em;
 }
+div.order-btn1 {
+    display: flex;
+    justify-content: center;
+}
+button.order-btn {
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 10%;
+     border-bottom-left-radius: 27px;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    font-size: 15px;
+}
