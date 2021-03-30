@@ -136,16 +136,39 @@ section .menus {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;  
-    //width: 100%;
     padding-bottom: 13px;
+}
+div.new {
+    //float: right;
 }
 div.menu-title {
     padding-left: 8px;
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
     
 }
+i.far.fa-heart {
+    float: right;
+    padding-right: 1em;
+    font-size: 23px;
+    padding-top: 12px;
+}
+i.far.fa-heart:hover::before {
+    background: linear-gradient(#FF79DA, #9356DC);  
+}
+
 div.menu-sub-title {
     padding-left: 8px;
+    padding-top: 4px;
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
 }
+a {
+    text-decoration: none;
+}
+
 footer.footer-menu {
     border: 1px solid ;
     margin-top: 3em;
@@ -192,6 +215,7 @@ li.footer-list {
 }
     nav.navigations {
       flex-direction: column;
+        align-items: center;
          }
   }
        
@@ -201,6 +225,7 @@ li.footer-list {
     display: flex;
     flex-direction: row;
            }
+    
 }
     
  @media only screen and (min-width: 768px) {
@@ -212,6 +237,9 @@ li.footer-list {
         button.Explore-btn {
         width: 30%;
     }
+     div.menus {
+    justify-content: center;
+}
 
           
       }
