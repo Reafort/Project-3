@@ -139,8 +139,18 @@ section .menus {
     padding-bottom: 13px;
 }
 div.new {
+    border: 1px solid #99E2D0;
     position: absolute;
-    //margin-left: 20em
+    width: 4%;
+    font-size: 15px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #99E2D0;
+    margin-left: 20em;
+    margin-top: 1em;
+    color:#2B7462;
+    font-weight: 900;
 
 }
 div.menu-title {
@@ -174,6 +184,12 @@ div.menu-sub-title {
 }
 a {
     text-decoration: none;
+}
+div.rowFooter {
+    font-size: 2em;
+    font-family: 'Shrikhand'
+    font-weight: 900;
+
 }
 
 footer.footer-menu {
