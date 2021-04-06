@@ -139,7 +139,9 @@ section .menus {
     padding-bottom: 13px;
 }
 div.new {
-    //float: right;
+    position: absolute;
+    //margin-left: 20em
+
 }
 div.menu-title {
     padding-left: 8px;
@@ -148,14 +150,19 @@ div.menu-title {
     font-weight: 900;
     
 }
-i.far.fa-heart {
+i.fas.fa-heart {
     float: right;
     padding-right: 1em;
-    font-size: 23px;
-    padding-top: 12px;
+    padding-top: 0.5em;
+    color: transparent;
+    transform: translateY(5px);
+    transition: color 0.5s ease in;
+    -webkit-text-stroke:1px black;
 }
-i.far.fa-heart:hover::before {
-    background: linear-gradient(#FF79DA, #9356DC);  
+i.fas.fa-heart:hover {
+    color: #9356DC;
+    -webkit-text-stroke: 1px #9356DC;
+
 }
 
 div.menu-sub-title {
