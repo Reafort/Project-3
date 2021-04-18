@@ -190,9 +190,11 @@ a {
     text-decoration: none;
 }
 div.rowFooter {
-    font-size: 2em;
-    font-family: 'Shrikhand'
+    font-size: 1.8em;
+    font-family: 'shirkhand', cursive;
     font-weight: 900;
+    padding-left: 38px;
+    padding-top: 10px;
 
 }
 
@@ -205,7 +207,7 @@ footer.footer-menu {
 li.footer-list {
     list-style: none;
     padding-bottom: 7px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* For mobile phones: */

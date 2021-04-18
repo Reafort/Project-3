@@ -23,6 +23,13 @@ figure.top-image1 {
     max-height: 100%;
 
 }
+div.rowFooter {
+      font-size: 1.8em;
+    font-family: 'shirkhand', cursive;
+    font-weight: 900;
+    padding-left: 38px;
+    padding-top: 10px;
+}
 footer.footer-menu {
     border: 1px solid ;
     margin-top: 3em;
@@ -52,7 +59,7 @@ div.list-of-food {
     margin-bottom: 1em;
     margin-right: 10px;
     margin-left: 10px;
-    animation: fadeInAnimation ease 10s;
+    animation: fadeInAnimation ease 4s;
 }
 @keyframes fadeInAnimation {
             0% {
@@ -62,20 +69,23 @@ div.list-of-food {
                 opacity: 1;
             }
         }
-//div.list-of-food:nth-child(1) {
-    animation-delay: 0.5s;
-}
-//div.list-of-food:nth-child(2) {
-    animation-delay: 1s;
-}
-//div.list-of-food:nth-child(3) {
-    animation-delay: 2s;
-}
-i.far.fa-heart.menu-heart {
+div.list-of-food:hover {
+      }
+
+i.fas.fa-heart.menu-heart {
     float: right;
     padding-right: 2em;
-   
+      color: transparent;
+    transform: translateY(5px);
+    transition: color 0.5s ease in;
+    -webkit-text-stroke:1px black;  
 }
+i.fas.fa-heart.menu-heart:hover {
+    color: #9356DC;
+    -webkit-text-stroke: 1px #9356DC;
+
+}
+
 h1.full-palette-title {
     font-weight: 900;
     padding-top: 2em;
