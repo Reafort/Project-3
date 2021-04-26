@@ -1,6 +1,12 @@
 body {
 	font-family: Roboto;
 }
+
+i.fas.fa-arrow-left.previous-arrow {
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+}
 div.logo {
 	display: flex;
 	justify-content: center;
