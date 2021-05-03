@@ -167,6 +167,7 @@ li.footer-list {
 }
 li.footer-list a {
     color: white;
+    text-decoration: none;
 
 }
 
