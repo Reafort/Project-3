@@ -1,5 +1,6 @@
 body {
 	font-family: Roboto;
+    margin: 0;
 }
 
 i.fas.fa-arrow-left.previous-arrow {
@@ -175,7 +176,10 @@ li.footer-list a {
     
     button.order-btn {
         width: 40%;
-    }   
+    }
+    div.logo {
+        height: 30px;
+    }
 }
 
 @media only screen and (min-width: 600px) {

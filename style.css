@@ -1,274 +1,250 @@
 
-body{
-    font-family: Roboto;
-    margin: 0;
+body {
+	font-family: Roboto;
+	margin: 0;
 }
-
 .loader-container {
-    -webkit-animation: cssAnimation 1s forwards;
+	-webkit-animation: cssAnimation 1s forwards;
 	animation: cssAnimation 2s forwards;
 }
-
-
 @keyframes cssAnimation {
 	100% {
 		visibility: hidden;
-     
 	}
 }
-
 @-webkit-keyframes cssAnimation {
 	100% {
 		visibility: hidden;
-
 	}
 }
-
 .loader {
-position: absolute;
-top: 60%;
-left: 50%;
-  border: 14px solid #f3f3f3; 
-  border-top: 16px solid #9356DC;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: spin 1s linear infinite;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	border: 14px solid #f3f3f3;
+	border-top: 16px solid #9356DC;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
 }
-
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-   
-    
-  100% { transform: rotate(360deg);
-    visibility: hidden; }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+		visibility: hidden;
+	}
 }
-
-
 div.logo {
- display: flex;
-justify-content: center; 
-    padding-top: 15px;
-    padding-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 div.fas.fa-map-marker-alt.fa-x {
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border: hidden;
-    background-color:#EAEAEA;
-   box-shadow: 0px -3px 8px 0 rgba(0, 0, 0, 0.25);
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: hidden;
+	background-color: #EAEAEA;
+	box-shadow: 0px -3px 8px 0 rgba(0, 0, 0, 0.25);
 }
 div.location-text {
-    padding-left: 1em;
-    font-family: Roboto;
+	padding-left: 1em;
+	font-family: Roboto;
 }
-
 h1.Book-menu {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    font-size: 25px
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font-size: 25px
 }
 .Content p {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    font-size: 20px;
-    color: #6A6A6A
-    
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	font-size: 20px;
+	color: #6A6A6A
 }
 div.Explore {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-
 button.Explore-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    border: none;
-    height: 60px;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(#FF79DA, #9356DC);
+	color: white;
+	border: none;
+	height: 60px;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-size: 18px;
 }
 div.Content-background {
-    background-color: #F2F2F2;
-    height: 310px;
-    width: 100%;
+	background-color: #F2F2F2;
+	height: 310px;
+	width: 100%;
 }
 div.How-it-works-btn {
-    display: flex;
-    margin-top: 2.3em;
-    padding-left: 15px;
-    font-size: 24px;
-    font-weight: 900;
-
-
-    
+	display: flex;
+	margin-top: 2.3em;
+	padding-left: 15px;
+	font-size: 24px;
+	font-weight: 900;
 }
 button.button-1 {
-    display: flex;
-    justify-content: flex-start;
-   align-items: center;
-    border: 1px gray;;
-    box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.20);
-    margin-top: 1.8em;
-    height: 75px;
-    width: 450px;
-    border-top-left-radius: 1.5em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px gray;
+	;
+	box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.20);
+	margin-top: 1.8em;
+	height: 75px;
+	width: 450px;
+	border-top-left-radius: 1.5em;
 	border-bottom-left-radius: 1.5em;
 	border-top-right-radius: 1.5em;
 	border-bottom-right-radius: 1.5em;
 }
 span.icon-and-text {
-    font-size: 15px;
-    margin-left: 2em;
-    font-weight: 600;
-    font-family: roboto;
+	font-size: 15px;
+	margin-left: 2em;
+	font-weight: 600;
+	font-family: roboto;
 }
 span.button-icon {
-    font-size: 1.2em;
-    padding-right: 1em;
-    color: gray;
+	font-size: 1.2em;
+	padding-right: 1em;
+	color: gray;
 }
 span.button-text {
-    font-size: 1.1em;
+	font-size: 1.1em;
 }
 span.button-numbers {
-    position: absolute;
-    background-color: #9356DC;
-    color: white;
-    margin-top: 3.7em;
-    font-size: 15px;
-    border: 1px solid gray;
-    border-radius: 50%;
-    padding-left: 4px;
-    padding-right: 4px;  
-    margin-left: -5px;
+	position: absolute;
+	background-color: #9356DC;
+	color: white;
+	margin-top: 3.5em;
+	font-size: 15px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: -5px;
 }
-
 nav.navigations {
-    display: flex;
-    justify-content:space-around; 
-    margin-bottom: 5em;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5em;
 }
-
-
 h2.Restaurant {
-    font-size: 24px;
-    margin-top: 2.4em;
-    margin-bottom: 2px;
-    font-weight: 900;
+	font-size: 24px;
+	margin-top: 2.4em;
+	margin-bottom: 2px;
+	font-weight: 900;
 }
 section.List-of-menus {
-    padding-top: 0.1px;
-    background-color: #f2f2f2;
-    padding-bottom: 3em
+	padding-top: 0.1px;
+	background-color: #f2f2f2;
+	padding-bottom: 3em
 }
 section .menus {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .menus img {
-    height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px; 
-    width: 395px; 
-    object-fit: cover;
+	height: 200px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 395px;
+	object-fit: cover;
 }
- figure.box-figure {
-   border: -1px solid white; 
-     background-color: white;
-    box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.1);
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px; 
-    padding-bottom: 13px;
+figure.box-figure {
+	border: -1px solid white;
+	background-color: white;
+	box-shadow: 4px 7px 14px -2px rgba(0, 0, 0, 0.1);
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-bottom: 13px;
 }
-
 div.newbox {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 1em;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1em;
 }
 button.newbtn {
-    border: 1px solid #99E2D0;
-    position: absolute;
-    font-size: 14px;
-    height: 26px;
-    width: 4%;
-    text-align: center;
-    background-color: #99E2D0;
-    margin-top: 1em;
-    color:#2B7462;
-    font-weight: 600;
-
+	border: 1px solid #99E2D0;
+	position: absolute;
+	font-size: 14px;
+	height: 26px;
+	width: 4%;
+	text-align: center;
+	background-color: #99E2D0;
+	margin-top: 1em;
+	color: #2B7462;
+	font-weight: 600;
 }
 div.menu-title {
-    padding-top: 10px;
-    padding-left: 9px;
-    font-size: 18px;
-    color: black;
-    font-weight: 900;
-    
+	padding-top: 10px;
+	padding-left: 9px;
+	font-size: 18px;
+	color: black;
+	font-weight: 900;
 }
 i.fas.fa-heart {
-    float: right;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    color: transparent;
-    transform: translateY(5px);
-    transition: color 0.5s ease in;
-    -webkit-text-stroke:1px black;
+	float: right;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	color: transparent;
+	transform: translateY(5px);
+	transition: color 0.5s ease in;
+	-webkit-text-stroke: 1px black;
 }
 i.fas.fa-heart:hover {
-    color: #9356DC;
-    -webkit-text-stroke: 1px #9356DC;
-
+	color: #9356DC;
+	-webkit-text-stroke: 1px #9356DC;
 }
-
 div.menu-sub-title {
-    padding-left: 9px;
-    padding-top: 3px;
-    color: black;
-    font-size: 17px;
-    font-weight: 300;
+	padding-left: 9px;
+	padding-top: 3px;
+	color: black;
+	font-size: 17px;
+	font-weight: 300;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 div.rowFooter {
-    font-size: 1.2em;
-    font-family: 'shrikhand', cursive;
-    font-weight: 900;
-    padding-left: 38px;
-    padding-top: 10px;
-    font-weight: 400;
-
+	font-size: 1.2em;
+	font-family: 'shrikhand', cursive;
+	font-weight: 900;
+	padding-left: 38px;
+	padding-top: 10px;
+	font-weight: 400;
 }
-
 footer.footer-menu {
-    border: 1px solid ;
-    background-color: #333333;
-    color: white;
+	border: 1px solid;
+	background-color: #333333;
+	color: white;
 }
 li.footer-list {
-    list-style: none;
-    padding-bottom: 7px;
-    font-size: 15px;
+	list-style: none;
+	padding-bottom: 7px;
+	font-size: 15px;
 }
 li.footer-list a {
-    color: white;
+	color: white;
 }
-
 /* For mobile phones: */
 
 [class*="col-"] {
@@ -276,198 +252,162 @@ li.footer-list a {
 }
 @media only screen and (min-width: 375px) {
 	/* For tablets: */
-
-    
-  div. Content-background {
-        width: 109%;
-    }
-    
-    .menus img {
-        width: 340px;
-        height: 180px;
-    }
-    
-    button.button-1 {
-        width: 350px;
-    }
-
-    
-    div.logo {
-        height: 30px;
-    }
-    button.Explore-btn {
-        width: 60%;
-    }
-    
-     h2 {
-            font-size: 18px;
-         }
-    nav.navigations {
-      flex-direction: column;
-        align-items: center;
-         }
- button.newbtn {
-        width: 15%;
-     }
-     div.menus {
-    justify-content: center;
+	div. Content-background {
+		width: 109%;
+	}
+	.menus img {
+		width: 340px;
+		height: 180px;
+	}
+	button.button-1 {
+		width: 350px;
+	}
+	div.logo {
+		height: 30px;
+	}
+	button.Explore-btn {
+		width: 60%;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	nav.navigations {
+		flex-direction: column;
+		align-items: center;
+	}
+	button.newbtn {
+		width: 15%;
+	}
+	div.menus {
+		justify-content: center;
+	}
+	h2.Restaurant {
+		justify-content: unset;
+		padding-left: 1.8em;
+	}
+	.Content p {
+		padding-left: 2em;
+	}
 }
-h2.Restaurant {
-    justify-content: unset;
-    padding-left: 1.8em;
-    
-}
-    .Content p {
-        padding-left: 2em;
-    }
-    
-
-}
-
 @media only screen and (min-width: 500px) {
-    
-    .Content p {
-        padding: unset;
-    }
-    
-     button.button-1 {
-        width: 450px;
-    }
-    
-    .menus img {
-    height: 200px;
-    width: 395px;
-     }
-    div.logo {
-        height: 30px;
-    }
-    button.Explore-btn {
-        width: 50%;
-    }
-    
-     h2 {
-            font-size: 18px;
-         }
+	.Content p {
+		padding: unset;
+	}
+	button.button-1 {
+		width: 450px;
+	}
+	.menus img {
+		height: 200px;
+		width: 395px;
+	}
+	div.logo {
+		height: 30px;
+	}
+	button.Explore-btn {
+		width: 50%;
+	}
+	h2 {
+		font-size: 18px;
+	}
 }
-    nav.navigations {
-      flex-direction: column;
-        align-items: center;
-         }
- button.newbtn {
-        width: 15%;
-     }
-     div.menus {
-    justify-content: center;
+nav.navigations {
+	flex-direction: column;
+	align-items: center;
+}
+button.newbtn {
+	width: 15%;
+}
+div.menus {
+	justify-content: center;
 }
 h2.Restaurant {
-    justify-content: unset;
-    padding-left: 1.8em;
-    
-    
+	justify-content: unset;
+	padding-left: 1.8em;
 }
-  
-    @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 	/* For tablets: */
-     section .menus {
-    display: flex;
-    flex-direction: row;
-           }
-     button.newbtn {
-        width: 10%;
-     }
-    
-        div.How-it-works-btn {
-    justify-content: center;
-   
- }
-    h2.Restaurant {
-    display: flex;
-    justify-content: center;
+	section .menus {
+		display: flex;
+		flex-direction: row;
+	}
+	button.newbtn {
+		width: 10%;
+	}
+	div.How-it-works-btn {
+		justify-content: center;
+	}
+	h2.Restaurant {
+		display: flex;
+		justify-content: center;
+	}
 }
-}
-    
-  
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	/* For desktop: */
-     
-   nav.navigations {
-            align-items: center;
-        }
-        button.Explore-btn {
-        width: 30%;
-    }
-     div.menus {
-    justify-content: center;
-}
-      button.newbtn {
-        width: 9%;
-     }
-     
-     div.How-it-works-btn {
-    justify-content: center;
-   
- }
-     h2.Restaurant {
-    display: flex;
-    justify-content: center;
-
-          
-      }
-@media only screen and (min-width: 1000px) {
-	/* For desktop: */
-     button.newbtn {
-        width: 7%;
-     }
-    div.How-it-works-btn {
-    justify-content: center;
-   
- }
-    h2.Restaurant {
-    display: flex;
-    justify-content: center;
-  }
-    
-	
-     
-@media only screen and (min-width: 1500px) {
-	/* For desktop: */
- 
-    div.logo {
-          height: 60px;  
-         }
-        h2 {
-            font-size: 20px;
-         }
-       button.Explore-btn {
-        width: 14%;
-    }
-
-    section .menus {
-    flex-direction: row;
-}
-  nav.navigations {
-      flex-direction: row;
-         }
-        nav.navigations ul {
-    flex-direction:row;
-    width: 100%;
-          }
-nav.navigations ul li {
-    width: 30%;
-}
-         button.button-1 {
-    width: 500px;
-              }
-     button.newbtn {
-        width: 4%;
-     }
-    
-div.How-it-works-btn {
-    justify-content: center;
-   
- }
-    h2.Restaurant {
-    display: flex;
-    justify-content: center;
-     }
-     
+	nav.navigations {
+		align-items: center;
+	}
+	button.Explore-btn {
+		width: 30%;
+	}
+	div.menus {
+		justify-content: center;
+	}
+	button.newbtn {
+		width: 9%;
+	}
+	div.How-it-works-btn {
+		justify-content: center;
+	}
+	h2.Restaurant {
+		display: flex;
+		justify-content: center;
+	}
+	@media only screen and (min-width: 1000px) {
+		/* For desktop: */
+		button.newbtn {
+			width: 7%;
+		}
+		div.How-it-works-btn {
+			justify-content: center;
+		}
+		h2.Restaurant {
+			display: flex;
+			justify-content: center;
+		}
+		@media only screen and (min-width: 1500px) {
+			/* For desktop: */
+			div.logo {
+				height: 60px;
+			}
+			h2 {
+				font-size: 20px;
+			}
+			button.Explore-btn {
+				width: 14%;
+			}
+			section .menus {
+				flex-direction: row;
+			}
+			nav.navigations {
+				flex-direction: row;
+			}
+			nav.navigations ul {
+				flex-direction: row;
+				width: 100%;
+			}
+			nav.navigations ul li {
+				width: 30%;
+			}
+			button.button-1 {
+				width: 500px;
+			}
+			button.newbtn {
+				width: 4%;
+			}
+			div.How-it-works-btn {
+				justify-content: center;
+			}
+			h2.Restaurant {
+				display: flex;
+				justify-content: center;
+			}
