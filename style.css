@@ -250,8 +250,27 @@ li.footer-list a {
 [class*="col-"] {
 	width: 100%;
 }
+
+@media only screen and (min-width: 280px) {
+    div.logo {
+        height: 40px;
+    }
+    
+    button.button-1 {
+		width: 250px;
+	}
+    
+    .menus img {
+		width: 240px;
+		height: 100px;
+	}
+    .Content p {
+        padding-left: 0.5em;
+    }
+}
+
 @media only screen and (min-width: 375px) {
-	/* For tablets: */
+	/* For mobiles: */
 	div. Content-background {
 		width: 109%;
 	}
