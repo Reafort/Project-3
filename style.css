@@ -3,6 +3,47 @@ body{
     font-family: Roboto;
 }
 
+.loader-container {
+    -webkit-animation: cssAnimation 1s forwards;
+	animation: cssAnimation 2s forwards;
+}
+
+
+@keyframes cssAnimation {
+	100% {
+		visibility: hidden;
+     
+	}
+}
+
+@-webkit-keyframes cssAnimation {
+	100% {
+		visibility: hidden;
+
+	}
+}
+
+.loader {
+position: absolute;
+top: 60%;
+left: 50%;
+  border: 14px solid #f3f3f3; 
+  border-top: 16px solid #9356DC;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+   
+    
+  100% { transform: rotate(360deg);
+    visibility: hidden; }
+}
+
+
 div.logo {
  display: flex;
 justify-content: center; 
