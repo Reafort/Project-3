@@ -171,6 +171,15 @@ li.footer-list a {
     text-decoration: none;
 
 }
+@media only screen and (min-width: 280px) {
+    
+     button.order-btn {
+        width: 50%;
+    }
+    div.logo {
+        height: 20px;
+    }
+}
 
 @media only screen and (min-width: 300px) {
     
