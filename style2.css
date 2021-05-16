@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+div.arrow {
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+}
+
 i.fas.fa-arrow-left.previous-arrow {
     font-size: 20px;
     color: black;
