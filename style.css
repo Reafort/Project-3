@@ -271,9 +271,10 @@ li.footer-list a {
 
 @media only screen and (min-width: 375px) {
 	/* For mobiles: */
-	div. Content-background {
+    
+	 div. Content-background {
 		width: 109%;
-	}
+    }
 	.menus img {
 		width: 340px;
 		height: 180px;
@@ -430,4 +431,4 @@ h2.Restaurant {
 				display: flex;
 				justify-content: center;
 			}
-        }
+}
